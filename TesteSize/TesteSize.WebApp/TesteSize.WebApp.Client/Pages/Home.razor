@@ -1,0 +1,65 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
+    <MudText Typo="Typo.h4" GutterBottom="true" Align="Align.Center">Bem-vindo ao Aplicativo de Antecipação de Recebíveis</MudText>
+    <MudDivider />
+
+    <MudGrid Class="mt-4">
+        <MudItem xs="12">
+            <MudPaper Class="pa-4" Elevation="2">
+                <MudText Typo="Typo.h5" GutterBottom="true">O que é o Aplicativo?</MudText>
+                <MudText Typo="Typo.body1">
+                    Este é um sistema inovador para calcular a antecipação de recebíveis de uma empresa, baseado em notas fiscais e limites de crédito, de forma simples e eficiente.
+                </MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+    <MudSpacer />
+
+    <MudGrid Class="mt-4">
+        <MudItem xs="12">
+            <MudPaper Class="pa-4" Elevation="2">
+                <MudText Typo="Typo.h5" GutterBottom="true">Principais Funcionalidades</MudText>
+                <MudList T="string" Dense="true">
+                    <MudListItem>Cadastro de Empresas com faturamento e CNPJ.</MudListItem>
+                    <MudListItem>Gerenciamento de Notas Fiscais vinculadas às empresas.</MudListItem>
+                    <MudListItem>Calculadora de antecipação com base em prazos e taxas.</MudListItem>
+                    <MudListItem>Relatórios detalhados dos resultados de antecipação.</MudListItem>
+                </MudList>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+    <MudSpacer />
+
+    <MudGrid Class="mt-4">
+        <MudItem xs="12">
+            <MudPaper Class="pa-4" Elevation="2">
+                <MudText Typo="Typo.h5" GutterBottom="true">Como Utilizar?</MudText>
+                <MudText Typo="Typo.body1">
+                    1. Cadastre a sua empresa na aba <strong>Empresas</strong>.<br />
+                    2. Adicione e gerencie suas notas fiscais na aba <strong>Notas Fiscais</strong>.<br />
+                    3. Acesse o <strong>Carrinho</strong>, selecione as notas desejadas e clique em <strong>Checkout</strong> para calcular a antecipação.<br />
+                    4. Visualize o resultado detalhado em um modal interativo.
+                </MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+    <MudSpacer />
+
+    <MudGrid Class="mt-4">
+        <MudItem xs="12">
+            <MudPaper Class="pa-4" Elevation="2">
+                <MudText Typo="Typo.h5" GutterBottom="true">Sobre o Projeto</MudText>
+                <MudText Typo="Typo.body1">
+                    Este projeto foi desenvolvido com Blazor e MudBlazor para proporcionar uma interface moderna e intuitiva.
+                    Ele é ideal para pequenas e médias empresas que precisam de uma solução para otimizar sua gestão financeira.
+                </MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+</MudContainer>

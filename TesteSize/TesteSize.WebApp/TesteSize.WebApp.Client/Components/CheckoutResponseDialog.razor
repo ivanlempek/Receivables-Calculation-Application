@@ -1,0 +1,27 @@
+﻿<MudDialog Style="max-height: 600px">
+    <DialogContent>
+        <MudText Typo="Typo.subtitle1">Empresa: @Result.Empresa</MudText>
+        <MudText Typo="Typo.subtitle1">CNPJ: @Result.CNPJ</MudText>
+        <MudText Typo="Typo.subtitle1">Limite: @Result.Limite.ToString("C")</MudText>
+
+        <MudTable Items="@Result.NotasFiscais" Dense="true" Class="mt-2 mb-4">
+            <HeaderContent>
+                <MudTh>Número</MudTh>
+                <MudTh>Valor Bruto</MudTh>
+                <MudTh>Valor Líquido</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Numero</MudTd>
+                <MudTd>@context.ValorBruto.ToString("C")</MudTd>
+                <MudTd>@context.ValorLiquido.ToString("C")</MudTd>
+            </RowTemplate>
+        </MudTable>
+
+        <MudText Typo="Typo.subtitle1">Total Bruto: @Result.TotalBruto.ToString("C")</MudText>
+        <MudText Typo="Typo.subtitle1">Total Líquido: @Result.TotalLiquido.ToString("C")</MudText>
+    </DialogContent>
+
+    <DialogActions>
+        <MudButton OnClick="()=>MudDialog.Close()" Color="Color.Primary">Fechar</MudButton>
+    </DialogActions>
+</MudDialog>

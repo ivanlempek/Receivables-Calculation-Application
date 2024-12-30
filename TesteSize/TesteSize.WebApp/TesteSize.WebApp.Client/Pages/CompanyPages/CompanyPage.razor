@@ -1,0 +1,65 @@
+﻿@page "/company-catalog"
+
+@using ExternalServices.Services
+@using BaseDTOs.Company
+@using TesteSize.WebApp.Client.Components
+@inject ISnackbar Snackbar
+
+<PageTitle>Catálogo de Empresas</PageTitle>
+<MudText Class="mt-3 mb-5" Typo="Typo.h5">Empresas</MudText>
+
+<MudButton StartIcon="@Icons.Material.Filled.AddBusiness" Color="Color.Primary" OnClick="OpenAddCompanyDialog">Adicionar</MudButton>
+<MudButton StartIcon="@Icons.Material.Filled.Edit" Color="Color.Primary" OnClick="OpenUpdateDialog">Atualizar</MudButton>
+<MudButton StartIcon="@Icons.Material.Filled.Delete" Color="Color.Primary" OnClick="DeleteCompany">Deletar</MudButton>
+
+@if (_companies == null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+    <MudDataGrid 
+        @ref="_dataGrid"
+        T="CompanyDto" 
+        Class="mt-2 data-grid-catalog" 
+        Loading="@_isLoading" 
+        MultiSelection=" true" 
+        Items="@_companies" 
+        SortMode="SortMode.Multiple" 
+        Filterable="true" 
+        QuickFilter="@_quickFilter"
+        Hideable="true" 
+        RowClick="@RowClicked"
+        RowContextMenuClick="RowRightClicked" 
+        SelectedItemsChanged="@SelectedItemsChanged">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">Empresas</MudText>
+            <MudSpacer />
+            <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                          AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+        <Columns>
+            <SelectColumn T="CompanyDto" />
+            <PropertyColumn Property="x => x.Id" Title="Id" Sortable="false" Filterable="false" />
+            <PropertyColumn Property="x => x.Nome" />
+            <PropertyColumn Property="x => x.CNPJ" />
+            <PropertyColumn Property="x => x.FaturamentoMensal" SortBy="@_sortBy" />
+            <PropertyColumn Property="x => x.Ramo" />
+        </Columns>
+
+        <LoadingContent>
+            @for (int i = 0; i < 9; i++)
+            {
+                <CustomSkeletonLine />
+            } 
+        </LoadingContent>
+
+        <NoRecordsContent>
+            <MudText id="zero-products-message" Typo="Typo.h5" Class="mt-5 mb-5 ml-5">Nenhuma empresa cadastrada</MudText>
+        </NoRecordsContent>
+
+        <PagerContent>
+            <MudDataGridPager T="CompanyDto" />
+        </PagerContent>
+    </MudDataGrid>
+}

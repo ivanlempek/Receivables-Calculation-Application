@@ -1,0 +1,66 @@
+﻿@page "/invoice-catalog"
+
+@using ExternalServices.Services
+@using BaseDTOs.Invoice
+@using TesteSize.WebApp.Client.Components
+@inject ISnackbar Snackbar
+
+<PageTitle>Catálogo de Notas fiscais</PageTitle>
+<MudText Class="mt-3 mb-5" Typo="Typo.h5">Notas Fiscais</MudText>
+
+<MudButton StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" OnClick="OpenAddInvoiceDialog">Adicionar</MudButton>
+<MudButton StartIcon="@Icons.Material.Filled.Edit" Color="Color.Primary" OnClick="OpenUpdateDialog">Atualizar</MudButton>
+<MudButton StartIcon="@Icons.Material.Filled.Delete" Color="Color.Primary" OnClick="DeleteInvoice">Deletar</MudButton>
+
+@if (_invoices == null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+    <MudDataGrid 
+        @ref="_dataGrid"
+        T="InvoiceDto" 
+        Class="mt-2 data-grid-catalog"
+        Loading="@_isLoading" 
+        MultiSelection=" true" 
+        Items="@_invoices" 
+        SortMode="SortMode.Multiple" 
+        Filterable="true" 
+        QuickFilter="@_quickFilter"
+        Hideable="true" 
+        RowClick="@RowClicked" 
+        RowContextMenuClick="RowRightClicked" 
+        SelectedItemsChanged="@SelectedItemsChanged">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">Empresas</MudText>
+            <MudSpacer />
+            <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                          AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+        <Columns>
+            <SelectColumn T="InvoiceDto" />
+            <PropertyColumn Property="x => x.Id" Title="Id" Sortable="false" Filterable="false" />
+            <PropertyColumn Property="x => x.Numero" />
+            <PropertyColumn Property="x => x.Valor" />
+            <PropertyColumn Property="x => x.DataVencimento.ToShortDateString()" SortBy="@_sortBy" />
+        </Columns>
+
+        <LoadingContent>
+            @for (int i = 0; i < 9; i++)
+            {
+                <CustomSkeletonLine />
+            } 
+        </LoadingContent>
+
+        <NoRecordsContent>
+            <MudText id="zero-products-message" Typo="Typo.h5" Class="mt-5 mb-5 ml-5">Nenhuma nota fiscal cadastrada</MudText>
+        </NoRecordsContent>
+
+        <PagerContent>
+            <MudDataGridPager T="InvoiceDto" />
+        </PagerContent>
+    </MudDataGrid>
+}
+
+

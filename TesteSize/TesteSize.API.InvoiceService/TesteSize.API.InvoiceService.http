@@ -1,0 +1,6 @@
+@TesteSize.API.InvoiceService_HostAddress = http://localhost:5163
+
+GET {{TesteSize.API.InvoiceService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
