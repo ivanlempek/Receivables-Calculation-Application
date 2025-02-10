@@ -1,0 +1,11 @@
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\bin\Debug\net8.0\TesteSize.BaseDTOs.deps.json
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\bin\Debug\net8.0\TesteSize.BaseDTOs.dll
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\bin\Debug\net8.0\TesteSize.BaseDTOs.pdb
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\TesteSize.BaseDTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\TesteSize.BaseDTOs.AssemblyInfoInputs.cache
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\TesteSize.BaseDTOs.AssemblyInfo.cs
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\TesteSize.BaseDTOs.csproj.CoreCompileInputs.cache
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\TesteSize.BaseDTOs.dll
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\refint\TesteSize.BaseDTOs.dll
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\TesteSize.BaseDTOs.pdb
+C:\dev\Testes\TesteSize\TesteSize.BaseDTOs\obj\Debug\net8.0\ref\TesteSize.BaseDTOs.dll

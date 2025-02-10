@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rG/DlhDxa8kerZ4tf7wTVzLcunuLVkLuoqDxo1Q/548=",
+  "Source": "TesteSize.API.InvoiceService",
+  "BasePath": "_content/TesteSize.API.InvoiceService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

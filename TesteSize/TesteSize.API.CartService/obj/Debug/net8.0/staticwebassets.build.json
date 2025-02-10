@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "FgK8SfEukC7YAJo5OdzFVZYOJDF9RKVL+bkhbIzXJH4=",
+  "Source": "TesteSize.API.CartService",
+  "BasePath": "_content/TesteSize.API.CartService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\dev\\Testes\\TesteSize\\TesteSize.API.InvoiceService\\TesteSize.API.InvoiceService.csproj",
+      "Version": 2,
+      "Source": "TesteSize.API.InvoiceService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

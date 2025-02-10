@@ -1,0 +1,74 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = TesteSize.WebApp.Client
+build_property.RootNamespace = TesteSize.WebApp.Client
+build_property.ProjectDir = C:\dev\Testes\TesteSize Ivan Lempek\TesteSize\TesteSize.WebApp\TesteSize.WebApp.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\dev\Testes\TesteSize Ivan Lempek\TesteSize\TesteSize.WebApp\TesteSize.WebApp.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Components/AddCompanyDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRDb21wYW55RGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Components/AddInvoiceDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRJbnZvaWNlRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Components/AddInvoiceToCartDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRJbnZvaWNlVG9DYXJ0RGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Components/CheckoutResponseDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGVja291dFJlc3BvbnNlRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Pages/CartPages/CartPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFBhZ2VzXENhcnRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Pages/CompanyPages/CompanyPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVBhZ2VzXENvbXBhbnlQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Pages/InvoicePages/InvoicePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZVBhZ2VzXEludm9pY2VQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Testes/TesteSize Ivan Lempek/TesteSize/TesteSize.WebApp/TesteSize.WebApp.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

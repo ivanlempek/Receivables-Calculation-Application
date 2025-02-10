@@ -1,0 +1,15 @@
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\bin\Debug\net8.0\TesteSize.ExternalServices.deps.json
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\bin\Debug\net8.0\TesteSize.ExternalServices.dll
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\bin\Debug\net8.0\TesteSize.ExternalServices.pdb
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\bin\Debug\net8.0\TesteSize.BaseDTOs.dll
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\bin\Debug\net8.0\TesteSize.BaseDTOs.pdb
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.csproj.AssemblyReference.cache
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.AssemblyInfoInputs.cache
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.AssemblyInfo.cs
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.csproj.CoreCompileInputs.cache
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSiz.95F8163E.Up2Date
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.dll
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\refint\TesteSize.ExternalServices.dll
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\TesteSize.ExternalServices.pdb
+C:\dev\Testes\TesteSize\TesteSize.ExternalServices\obj\Debug\net8.0\ref\TesteSize.ExternalServices.dll

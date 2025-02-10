@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\dev\\Testes\\TesteSize\\TesteSize.WebApp\\TesteSize.WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TesteSize.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TesteSize.WebApp.props",
+      "PackagePath": "build\\TesteSize.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TesteSize.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\TesteSize.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TesteSize.WebApp.props",
+      "PackagePath": "buildTransitive\\TesteSize.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

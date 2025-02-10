@@ -1,0 +1,234 @@
+[
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "GetAllCompanies",
+    "RelativePath": "api/Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "CreateCompany",
+    "RelativePath": "api/Company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "TesteSize.API.CompanyService.Domain.Entities.Company",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "GetCompanyById",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "UpdateCompany",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "company",
+        "Type": "TesteSize.API.CompanyService.Domain.Entities.Company",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "GetCreditLimit",
+    "RelativePath": "api/Company/{id}/credit-limit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteSize.API.CompanyService.API.Controllers.CompanyController",
+    "Method": "CheckIfExists",
+    "RelativePath": "api/Company/{id}/exists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "CreateInvoice",
+    "RelativePath": "api/Invoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoice",
+        "Type": "TesteSize.API.InvoiceService.Domain.Entities.Invoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "GetAllInvoices",
+    "RelativePath": "api/Invoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "GetInvoiceById",
+    "RelativePath": "api/Invoice/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "UpdateInvoice",
+    "RelativePath": "api/Invoice/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "invoice",
+        "Type": "TesteSize.API.InvoiceService.Domain.Entities.Invoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "DeleteInvoice",
+    "RelativePath": "api/Invoice/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "GetCartInvoices",
+    "RelativePath": "api/Invoice/get-cart-invoices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteSize.API.InvoiceService.API.Controllers.InvoiceController",
+    "Method": "GetInvoicesByCompany",
+    "RelativePath": "api/Invoice/get-company-invoices/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

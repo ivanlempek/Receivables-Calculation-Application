@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TesteSize.API.CompanyService.props" />
+</Project>

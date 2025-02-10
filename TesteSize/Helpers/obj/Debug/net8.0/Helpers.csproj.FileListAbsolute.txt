@@ -1,0 +1,11 @@
+C:\dev\Testes\TesteSize\Helpers\bin\Debug\net8.0\Helpers.deps.json
+C:\dev\Testes\TesteSize\Helpers\bin\Debug\net8.0\Helpers.dll
+C:\dev\Testes\TesteSize\Helpers\bin\Debug\net8.0\Helpers.pdb
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfoInputs.cache
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfo.cs
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\Helpers.csproj.CoreCompileInputs.cache
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\Helpers.dll
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\refint\Helpers.dll
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\Helpers.pdb
+C:\dev\Testes\TesteSize\Helpers\obj\Debug\net8.0\ref\Helpers.dll
